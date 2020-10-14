@@ -388,6 +388,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _moveSpeed: 5
+  _rotatespeed: 300
+  _myCamera: {fileID: 534669904}
 --- !u!136 &1396955869
 CapsuleCollider:
   m_ObjectHideFlags: 0
