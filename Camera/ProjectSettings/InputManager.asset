@@ -265,10 +265,10 @@ InputManager:
     m_Name: MineVertical
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: 
-    positiveButton: down
-    altNegativeButton: up
-    altPositiveButton: space
+    negativeButton: down
+    positiveButton: up
+    altNegativeButton: 
+    altPositiveButton: 
     gravity: 3
     dead: 0.001
     sensitivity: 3

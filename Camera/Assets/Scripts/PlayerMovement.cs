@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,20 +8,17 @@ public class PlayerMovement : MonoBehaviour
         Player2
     }
     
-    [SerializeField] private float _moveSpeed;
-    [SerializeField] private float _rotatespeed;
-    [SerializeField] private Camera _myCamera;
-    [SerializeField] private Camera _weaponCamera;
-    [SerializeField] private PlayerEnum _player;
-
-    private bool _isZoomed;
+    [SerializeField] private float _moveSpeed = 5;
+    [SerializeField] private float _rotatespeed = 150;
+    [SerializeField] private Camera _myCamera = default;
+    [SerializeField] private PlayerEnum _player = default;
+    
     private float moveX;
     private float moveZ;
     
     
     void Update()
     {
-
         switch (_player)
         {
             case PlayerEnum.Player1:
@@ -39,21 +34,9 @@ public class PlayerMovement : MonoBehaviour
         Move(moveDirection);
 
         var rotateX = Input.GetAxis("Mouse X");
-        var rotateY = Input.GetAxis("Mouse Y");
         var rotateXDirection = new Vector3(0, rotateX, 0);
-        var rotateYDirection = new Vector3(-rotateY, 0, 0);
-        
-        if (Input.GetKeyDown(KeyCode.Mouse1))
-        {
-            Zoom();
-        }
 
-
-        Rotate(rotateXDirection, rotateYDirection);
-        //var e = _myCamera.transform.localEulerAngles;
-        //e.x = Mathf.Clamp(e.x, -60, 60);
-        //_myCamera.transform.localEulerAngles = e;
-        //_myCamera.transform.localEulerAngles = new Vector3(Mathf.Clamp(_myCamera.transform.rotation.x, -60, 60), _myCamera.transform.rotation.y, _myCamera.transform.rotation.z);
+        Rotate(rotateXDirection);
     }
 
     private void Move (Vector3 direction)
@@ -61,15 +44,8 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(direction * _moveSpeed * Time.deltaTime);
     }
 
-    private void Rotate(Vector3 directionX, Vector3 directionY)
+    private void Rotate(Vector3 directionX)
     {
         transform.Rotate(directionX * _rotatespeed * Time.deltaTime);
-        _myCamera.transform.Rotate(directionY * _rotatespeed * Time.deltaTime);
-    }
-
-    private void Zoom()
-    {
-        _myCamera.fieldOfView = _isZoomed ? 30 : 60;
-        _isZoomed = !_isZoomed;
     }
 }

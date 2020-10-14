@@ -2,21 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyCameraController : MonoBehaviour
+public class MouseLook : MonoBehaviour
 {
-    [SerializeField] private float _sensitivity = 1.0f;
+    [SerializeField] private float _sensitivity = 3.0f;
+    private bool _isZoomed = false;
 
-    void Update()
+    private void Update()
     {
-        //var mouseX = Input.GetAxis("Mouse X");
-        //var newRotation = transform.localEulerAngles;
-        //newRotation.y += _sensitivity * mouseX;
-        //transform.localEulerAngles = newRotation;
-    
         var mouseY = Input.GetAxis("Mouse Y");
-        Vector3 newRotation1 = transform.localEulerAngles;
-        newRotation.x -= mouseY;
+        Vector3 newRotation = transform.localEulerAngles;
+        newRotation.x -= mouseY * _sensitivity;
         Debug.Log(newRotation.x);
         transform.localEulerAngles = newRotation;
+
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            Zoom();
+        }
+    }
+
+    private void Zoom()
+    {
+        GetComponent<Camera>().fieldOfView = _isZoomed ? 30 : 60;
+        _isZoomed = !_isZoomed;
     }
 }
