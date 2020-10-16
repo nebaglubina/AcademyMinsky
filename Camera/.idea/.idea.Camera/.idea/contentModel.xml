@@ -10,6 +10,7 @@
           <e p="MouseLook.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="TextureSetter.cs" t="Include" />
+          <e p="Zoom.cs" t="Include" />
         </e>
       </e>
       <e p="Camera.sln" t="IncludeFlat" />

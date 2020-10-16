@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,13 +11,31 @@ public class PlayerMovement : MonoBehaviour
     
     [SerializeField] private float _moveSpeed = 5;
     [SerializeField] private float _rotatespeed = 150;
-    [SerializeField] private Camera _myCamera = default;
     [SerializeField] private PlayerEnum _player = default;
+    [SerializeField] private string _InputHorizontal;
     
     private float moveX;
     private float moveZ;
-    
-    
+    private const string _player1HorizontalAxis = "Horizontal";
+    private const string _player1VerticalAxis = "Vertical";
+    private const string _player2HorizontalAxis = "MineHorizontal";
+    private const string _player2VerticalAxis = "MineVertical";
+
+    private void Start()
+    {
+        switch (_player)
+        {
+            case PlayerEnum.Player1:
+                moveX = Input.GetAxis("Horizontal");
+                moveZ = Input.GetAxis("Vertical");
+                break;
+            case PlayerEnum.Player2:
+                moveX = Input.GetAxis("MineHorizontal");
+                moveZ = Input.GetAxis("MineVertical");
+                break;
+        }
+    }
+
     void Update()
     {
         switch (_player)
