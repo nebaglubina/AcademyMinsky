@@ -10,22 +10,24 @@ public class LoadingControl : MonoBehaviour
 
     private void Start()
     {
-        AnimateBar();
+        StartCoroutine(AnimateBar());
     }
 
-    public void AnimateBar()
+    IEnumerator AnimateBar()
     {
-        Sequence sequence = DOTween.Sequence();
-        foreach (var bar in bars)
+        while (true)
         {
-            sequence.Append(bar.DOSizeDelta(new Vector2(45, 70), 0.15f));
-        }
-        
-        foreach (var bar in bars)
-        {
-            sequence.Append(bar.DOSizeDelta(new Vector2(45, 45), 0.15f));
+            Sequence sequence = DOTween.Sequence();
+            foreach (var bar in bars)
+            {
+                Debug.Log(bar.name);
+                sequence.Append(bar.DOSizeDelta(new Vector2(45, 70), 0.15f));
+                yield return new WaitForSeconds(0.1f);
+                sequence.Append(bar.DOSizeDelta(new Vector2(45, 45), 0.15f));
+            }
+            
+            yield return new WaitForSeconds(0.5f);
         }
 
-        sequence.OnComplete(AnimateBar);
     }
 }
