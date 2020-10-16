@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="298ee900-7d3b-4f29-8940-d46d628774d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scripts/MouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scripts/MouseLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TweenPractice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TweenPractice/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TweenPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TweenPractice/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../DOTween/Assets/Scripts/Route.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../DOTween/Assets/Scripts/CubeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RotatingControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../DOTween/Assets/Scripts/MenuController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LoadingControl.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -45,6 +43,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonControl.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LoadingControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RotatingControl.cs" />
       </list>
     </option>
   </component>
@@ -88,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602838164583</updated>
-      <workItem from="1602838166652" duration="4314000" />
+      <workItem from="1602838166652" duration="5181000" />
     </task>
     <servers />
   </component>
