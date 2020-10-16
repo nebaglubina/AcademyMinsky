@@ -1093,8 +1093,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811573c38928b4bf38ea79a6bcd34d76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dot: {fileID: 731700404}
-  _rot: {x: 0, y: 0, z: 0}
+  point: {fileID: 0}
+  rotationVector: {x: 0, y: 0, z: 0}
 --- !u!114 &1865107832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1107,5 +1107,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811573c38928b4bf38ea79a6bcd34d76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dot: {fileID: 731700404}
-  _rot: {x: 0, y: 0, z: -360}
+  point: {fileID: 731700404}
+  rotationVector: {x: 0, y: 0, z: -360}
