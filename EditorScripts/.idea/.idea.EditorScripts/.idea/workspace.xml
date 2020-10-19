@@ -20,12 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1cb3342-37c9-4573-b5a8-60b827bec6a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scripts/Editor/MenuItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scripts/Editor/MenuItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scripts/MouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scripts/MouseLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EditorScripts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EditorScripts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/ProjectileEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/ProjectileEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +51,12 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/TestUnityScripts.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MyWindow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ProjectileEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MyCharacterEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" />
         <option value="$PROJECT_DIR$/../Camera/Assets/Scripts/Editor/MenuItems.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/ProjectileEditor.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603089735781</updated>
-      <workItem from="1603089740860" duration="7658000" />
+      <workItem from="1603089740860" duration="9451000" />
+      <workItem from="1603109130723" duration="1390000" />
     </task>
     <servers />
   </component>
@@ -116,8 +120,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="363" y="166" width="672" height="678" key="search.everywhere.popup" timestamp="1603107574233">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="363" y="166" width="672" height="678" key="search.everywhere.popup/0.23.1440.822/1440.23.1920.1057@0.23.1440.822" timestamp="1603107574233" />
   </component>
 </project>

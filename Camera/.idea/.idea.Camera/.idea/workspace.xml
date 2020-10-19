@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b46fad01-2e93-4154-b322-27a53b5b26b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EditorScripts/.idea/.idea.EditorScripts/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EditorScripts/.idea/.idea.EditorScripts/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EditorScripts/.idea/.idea.EditorScripts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EditorScripts/.idea/.idea.EditorScripts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EditorScripts/Assets/Scenes/Scene 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../EditorScripts/Assets/Scenes/Scene 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MenuItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MenuItems.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/ProjectileEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/ProjectileEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Projectile.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +40,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MyCharacterEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/PaintWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MyWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../SpaceCruiser/Assets/Scripts/Gameplay/Ship/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Zoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/WallController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MenuItems.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,9 +57,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Zoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/WallEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/WallController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" />
+        <option value="$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MyWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/PaintWindow.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +107,8 @@
       <updated>1602657672022</updated>
       <workItem from="1602657677345" duration="1204000" />
       <workItem from="1602674173246" duration="10165000" />
-      <workItem from="1603096194174" duration="6743000" />
+      <workItem from="1603096194174" duration="7991000" />
+      <workItem from="1603129641863" duration="2616000" />
     </task>
     <servers />
   </component>

@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-public class MenuItems : MonoBehaviour
+public class MenuItems : Editor
 {
-    [MenuItem("Tools/Paint in red")]
+    [MenuItem("Tools/Painting/Paint")]
+    public static void ShowPaintWindow ()
+    {
+        EditorWindow.GetWindow<PaintWindow>();
+    }
     public static void PaintInRed()
     {
         var objectsWithMesh = FindObjectsOfType<WallController>();

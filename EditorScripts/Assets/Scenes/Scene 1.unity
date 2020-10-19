@@ -420,7 +420,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 1437591833}
-  damageRadius: 1
+  damageRadius: 1.3910704
+  Foo: Foo
+  bar: 1
 --- !u!54 &1437591833
 Rigidbody:
   m_ObjectHideFlags: 0

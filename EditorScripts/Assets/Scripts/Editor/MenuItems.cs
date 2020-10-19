@@ -18,4 +18,12 @@ public class MenuItems : MonoBehaviour
     {
         return Selection.activeObject != null && Selection.activeObject.GetType() == typeof(SceneAsset);
     }
+
+    [MenuItem("CONTEXT/Projectile/My Test Menu")]
+    public static void MyTestMenu(MenuCommand command)
+    {
+        Projectile proj = command.context as Projectile;
+        proj.GetComponent<MeshRenderer>().material.color = Color.red;
+        Debug.Log("My Test Menu");
+    }
 }
