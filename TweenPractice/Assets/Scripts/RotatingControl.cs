@@ -16,6 +16,7 @@ public class RotatingControl : MonoBehaviour
 
     public void Loading()
     {
-        point.DORotate(rotationVector,1f,RotateMode.FastBeyond360).SetLoops(-1, LoopType.Incremental).SetEase(Ease.Linear);
+        point.DORotate(rotationVector, 1f,
+            RotateMode.FastBeyond360).SetLoops(-1, LoopType.Incremental).SetEase(Ease.Linear);
     }
 }

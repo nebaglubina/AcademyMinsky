@@ -5,7 +5,6 @@ using UnityEngine;
 public class MouseLook : MonoBehaviour
 {
     [SerializeField] private float _sensitivity = 3.0f;
-    private bool _isZoomed = false;
 
     private void Update()
     {
