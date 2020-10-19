@@ -11,7 +11,7 @@ public class MenuItems : MonoBehaviour
         var objectsWithMesh = FindObjectsOfType<WallController>();
         foreach (var obj in objectsWithMesh)
         {
-            obj.GetComponent<MeshRenderer>().material.color = Color.red;
+            obj.GetComponent<MeshRenderer>().sharedMaterial.color = Color.red;
         }
     }
 }

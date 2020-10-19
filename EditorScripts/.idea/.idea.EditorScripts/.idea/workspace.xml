@@ -20,15 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1cb3342-37c9-4573-b5a8-60b827bec6a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scripts/Editor/MenuItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scripts/Editor/MenuItems.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scripts/MouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scripts/MouseLook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TweenPractice/.idea/.idea.TweenPractice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TweenPractice/.idea/.idea.TweenPractice/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TweenPractice/.idea/.idea.TweenPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TweenPractice/.idea/.idea.TweenPractice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TweenPractice/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../TweenPractice/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TweenPractice/Assets/Scripts/RotatingControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TweenPractice/Assets/Scripts/RotatingControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Camera/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EditorScripts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EditorScripts/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
