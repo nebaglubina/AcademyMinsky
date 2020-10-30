@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46fad01-2e93-4154-b322-27a53b5b26b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f90b2f37-1bb3-4a14-8230-80b1196996a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Camera/.idea/.idea.Camera/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,32 +31,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MyCharacterEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/PaintWindow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MyWindow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../SpaceCruiser/Assets/Scripts/Gameplay/Ship/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Zoom.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextureSetter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Objects/WallController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MenuItems.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EventTriggerDelegate.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MyCameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TextureSetter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Zoom.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/WallEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Objects/WallController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" />
-        <option value="$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MyWindow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/PaintWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DragImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ButtonEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventTriggerDelegate.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1irFBtdAX65rnUJ2xKVTIECHBsV" />
+  <component name="ProjectId" id="1j89cvYcquPbZXNPOgdgbP6jozI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -91,15 +78,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b46fad01-2e93-4154-b322-27a53b5b26b2" name="Default Changelist" comment="" />
-      <created>1602657672022</created>
+      <changelist id="f90b2f37-1bb3-4a14-8230-80b1196996a3" name="Default Changelist" comment="" />
+      <created>1603174935754</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602657672022</updated>
-      <workItem from="1602657677345" duration="1204000" />
-      <workItem from="1602674173246" duration="10165000" />
-      <workItem from="1603096194174" duration="7991000" />
-      <workItem from="1603129641863" duration="3515000" />
+      <updated>1603174935754</updated>
+      <workItem from="1603174940867" duration="28000" />
+      <workItem from="1603175018419" duration="4620000" />
     </task>
     <servers />
   </component>
@@ -122,11 +107,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="451" y="165" width="672" height="678" key="search.everywhere.popup" timestamp="1603098474700">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="451" y="165" width="672" height="678" key="search.everywhere.popup/0.23.1440.821/1440.23.1920.1057@0.23.1440.821" timestamp="1603098474700" />
   </component>
 </project>
