@@ -1437,6 +1437,7 @@ MonoBehaviour:
   _player: 1
   _InputHorizontal: 
   _InputVertical: 
+  _health: 0
 --- !u!136 &1185860044
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1961,8 +1962,8 @@ GameObject:
   - component: {fileID: 1396955873}
   - component: {fileID: 1396955874}
   m_Layer: 0
-  m_Name: Player1
-  m_TagString: Untagged
+  m_Name: Player 1
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1983,6 +1984,7 @@ MonoBehaviour:
   _player: 0
   _InputHorizontal: 
   _InputVertical: 
+  _health: 100
 --- !u!136 &1396955869
 CapsuleCollider:
   m_ObjectHideFlags: 0

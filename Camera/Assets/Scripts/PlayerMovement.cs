@@ -13,6 +13,19 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private PlayerEnum _player = default;
     [SerializeField] private string _InputHorizontal;
     [SerializeField] private string _InputVertical;
+    [SerializeField] private int _health;
+
+    public float MoveSpeed
+    {
+        get => _moveSpeed;
+        set => _moveSpeed = value;
+    }
+
+    public int Health
+    {
+        get => _health;
+        set => _health = value;
+    }
     
     private float moveX;
     private float moveZ;

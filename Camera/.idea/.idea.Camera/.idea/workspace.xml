@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b46fad01-2e93-4154-b322-27a53b5b26b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Camera/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +52,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Zoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/WallEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Objects/WallController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/MenuItems.cs" />
         <option value="$PROJECT_DIR$/../EditorScripts/Assets/Scripts/Editor/MyWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/PaintWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyDataExperiments.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +105,7 @@
       <workItem from="1602674173246" duration="10165000" />
       <workItem from="1603096194174" duration="7991000" />
       <workItem from="1603129641863" duration="3515000" />
+      <workItem from="1604496475447" duration="6371000" />
     </task>
     <servers />
   </component>
