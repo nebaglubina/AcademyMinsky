@@ -21,22 +21,9 @@ public class MyDataExperiments : MonoBehaviour
     {
         string uri = "https://dminsky.com/settings.zip";
         UnityWebRequest uwr = UnityWebRequest.Get(uri);
-        //uwr.downloadHandler = new DownloadHandlerFile(uri);
-        var asyncOp = uwr.SendWebRequest();
-        asyncOp.completed += (ao) =>
-        {
-            if (uwr.isNetworkError || uwr.isHttpError)
-            {
-                Debug.Log("error!");
-            }
-            else
-            {
-                string outPath = Path.Combine(Application.persistentDataPath, "settings.zip");
-                Debug.Log(outPath);
-                File.WriteAllBytes(outPath, uwr.downloadHandler.data); //byte array
-                Debug.Log("Download complete");
-            }
-        };
+        string outPath = Path.Combine(Application.persistentDataPath, "settings.zip");
+        uwr.downloadHandler = new DownloadHandlerFile(outPath);
+        uwr.SendWebRequest();
     }
 
     [MenuItem("Tools/Settings/ApplySettings")]
