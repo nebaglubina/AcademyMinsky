@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System.IO.Compression;
 using UnityEditor;
+using UnityEditor.VersionControl;
 
 [Serializable]
 public class MySettings
@@ -14,7 +15,7 @@ public class MySettings
     public string base64Texture;
 }
 
-public class MyDataExperiments : MonoBehaviour
+public class MyDataExperiments
 {
     [MenuItem("Tools/Settings/Download")]
     public static void DownloadFile()
@@ -30,13 +31,48 @@ public class MyDataExperiments : MonoBehaviour
     public static void ApplySettings()
     {
         string zipPath = Path.Combine(Application.persistentDataPath, "settings.zip");
-        ZipFile.ExtractToDirectory(zipPath, Application.persistentDataPath);
         string jsonPath = Path.Combine(Application.persistentDataPath, "settings.json");
+        try
+        {
+            ZipFile.ExtractToDirectory(zipPath, Application.persistentDataPath);
+            Debug.Log("Trying UNZIP");
+        }
+        catch (FileNotFoundException e)
+        {
+            Debug.Log("FileNotFound - trying to download again, message: " + e.Message);
+            DownloadFile();
+        }
+        catch (IOException e)
+        {
+            Debug.Log("File from ZIP already exists, deleting. Message: " + e.Message);
+            File.Delete(jsonPath);
+            ZipFile.ExtractToDirectory(zipPath, Application.persistentDataPath);
+        }
+        catch (Exception e)
+        {
+            Debug.Log("Uknown error: " + e.Message);
+        }
+
         string json = File.ReadAllText(jsonPath);
         MySettings newSettings = JsonUtility.FromJson<MySettings>(json);
         byte[] textureBytes = Convert.FromBase64String(newSettings.base64Texture);
         string texturePath = Path.Combine(Application.persistentDataPath, "texture.jpg");
-        File.WriteAllBytes(texturePath, textureBytes);
+        try
+        {
+            File.WriteAllBytes(texturePath, textureBytes);
+        }
+        catch (PathTooLongException e)
+        {
+            Debug.Log("Path too long, message: " + e.Message);
+        }
+        catch (DirectoryNotFoundException e)
+        {
+            Debug.Log("DirectoryNotFoundException: " + e.Message);
+        }
+        catch (Exception e)
+        {
+            Debug.Log("Uknown error: " + e.Message);
+        }
         
         byte[] texturedata = File.ReadAllBytes(texturePath);
         Texture2D myTexture = new Texture2D(2, 2);
@@ -52,6 +88,7 @@ public class MyDataExperiments : MonoBehaviour
             myPlayerMovement.name = newSettings.fullName;
             myPlayerMovement.Health = newSettings.health;
         }
+        Debug.Log("Applying settings");
     }
 }
 
