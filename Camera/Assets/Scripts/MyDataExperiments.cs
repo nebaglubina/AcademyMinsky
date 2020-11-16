@@ -3,8 +3,10 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
 using System.IO.Compression;
+using System.Threading;
 using UnityEditor;
-using UnityEditor.VersionControl;
+using System.Threading.Tasks;
+
 
 [Serializable]
 public class MySettings
@@ -18,17 +20,18 @@ public class MySettings
 public class MyDataExperiments
 {
     [MenuItem("Tools/Settings/Download")]
-    public static void DownloadFile()
+    public static async Task DownloadFile()
     {
         string uri = "https://dminsky.com/settings.zip";
         UnityWebRequest uwr = UnityWebRequest.Get(uri);
         string outPath = Path.Combine(Application.persistentDataPath, "settings.zip");
         uwr.downloadHandler = new DownloadHandlerFile(outPath);
         uwr.SendWebRequest();
+        Thread.Sleep(3000);
     }
 
     [MenuItem("Tools/Settings/ApplySettings")]
-    public static void ApplySettings()
+    public static async Task ApplySettings()
     {
         string zipPath = Path.Combine(Application.persistentDataPath, "settings.zip");
         string jsonPath = Path.Combine(Application.persistentDataPath, "settings.json");
@@ -40,7 +43,7 @@ public class MyDataExperiments
         catch (FileNotFoundException e)
         {
             Debug.Log("FileNotFound - trying to download again, message: " + e.Message);
-            DownloadFile();
+            await DownloadFile();
         }
         catch (IOException e)
         {
